@@ -1,0 +1,41 @@
+div.main {
+  width: 80%;
+  height: 800px;
+  background-color: #ffffff;
+  margin: 0px auto;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  .one,
+  .two {
+    width: 35%;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: benz;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+    border-top: 2px solid #ebebeb;
+    h3 {
+      color: red;
+      margin-top: 10px;
+    }
+  }
+  .bottonMain {
+    display: flex;
+    gap: 20px;
+    font-family: benz;
+    span {
+      padding: 10px;
+      box-sizing: border-box;
+      width: 200px;
+      text-align: center;
+      color: #9b9898;
+      border-bottom: 1px solid #c2bdbd;
+    }
+  }
+}

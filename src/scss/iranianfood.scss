@@ -1,0 +1,42 @@
+div.IranianFoods {
+  width: 80%;
+  height: 990px;
+  background-color: #ffffff;
+  margin: 0px auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 100%;
+  }
+  h3 {
+    margin-top: 80px;
+    color: red;
+    font-family: benz;
+  }
+  p {
+    width: 30%;
+    font-family: benz;
+  }
+  .btns {
+    .btn-reed,
+    .btn-ride {
+      all: unset;
+      padding: 10px 20px;
+      box-sizing: border-box;
+      background-color: rgb(204, 202, 202);
+      color: black;
+      border-radius: 10px;
+      font-weight: bold;
+      font-family: benz;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: 700ms;
+      &:hover {
+        background-color: red;
+        color: white;
+      }
+    }
+  }
+}

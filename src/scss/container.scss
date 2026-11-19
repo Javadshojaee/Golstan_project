@@ -1,0 +1,58 @@
+div.container {
+  width: 80%;
+  height: 400px;
+  background-color: #dddddd;
+  margin: 0px auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 170px;
+  .right {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    transition: 700ms;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: start;
+  }
+  .left {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    h1 {
+      color: red;
+      font-family: benz;
+    }
+    span {
+        font-family: benz;
+      font-weight: bold;
+    }
+    p {
+        transition: 700ms;
+        font-size: 17px;
+        font-family: benz;
+    }
+    .btn {
+        all: unset;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        font-family: benz;
+        border-radius: 10px;
+        border: 1px solid rgb(75, 72, 72);
+        background-color: #c9c7c7;
+        cursor: pointer;
+        transition: 600ms;
+        &:hover {
+            background-color: red;
+            color: white;
+        }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+.new-video {
+  width: 80%;
+  height: 600px;
+  background-color: white;
+  margin: 0px auto;
+  .videos {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 20px;
+    .child {
+      width: 20%;
+      height: fit-content;
+      box-shadow: 5px 5px 25px black;
+      padding: 20px;
+      .tops {
+        video {
+          width: 100%;
+        }
+      }
+      .bottons {
+        padding: 20px;
+        box-sizing: border-box;
+        font-family: benz;
+        h3 {
+          color: red;
+        }
+        p {
+          width: 100%;
+        }
+      }
+      .btn-rides {
+        all: unset;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        background-color: rgb(204, 202, 202);
+        color: black;
+        border-radius: 10px;
+        font-weight: bold;
+        font-family: benz;
+        cursor: pointer;
+        margin-top: 20px;
+        transition: 700ms;
+        &:hover {
+          background-color: red;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.Responsibility {
+  width: 80%;
+  height: 500px;
+  background-color: #105153;
+  margin: 0px auto;
+  //   display: grid;
+  //   place-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  h2,
+  h1 {
+    font-family: benz;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  h2 {
+    border-bottom: 1px solid #2a9a9e;
+  }
+}
+
+.icon {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+  }
+  .TEL {
+    &:hover {
+      background-color: aqua;
+    }
+  }
+  .Apa {
+    &:hover {
+      background-color: crimson;
+    }
+  }
+  .lin {
+    &:hover {
+      background-color: blue;
+    }
+  }
+  .GOL {
+     &:hover {
+      background-color: green;
+    }
+  }
+}
